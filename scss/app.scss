@@ -1,6 +1,70 @@
+// Global Foundation Settings
 @import "settings";
+
+// Comment out this import if you don't want to use normalize
+@import "normalize";
+
+// Comment out this import if you are customizing you imports below
 @import "foundation";
 
+// Import specific parts of Foundation by commenting the import "foundation"
+// and uncommenting what you want below.
+
+// Setup
+// @import "foundation/components/global"; // *always required
+
+// Structure
+// @import "foundation/components/visibility";
+// @import "foundation/components/grid";
+// @import "foundation/components/block-grid";
+// @import "foundation/components/thumbs";
+
+// Navigation
+// @import "foundation/components/offcanvas";
+// @import "foundation/components/top-bar";  // *requires components/grid
+// @import "foundation/components/side-nav";
+// @import "foundation/components/magellan";
+// @import "foundation/components/sub-nav";
+// @import "foundation/components/breadcrumbs";
+// @import "foundation/components/pagination";
+
+// Media
+// @import "foundation/components/orbit";
+// @import "foundation/components/clearing";
+// @import "foundation/components/flex-video";
+
+// Forms
+// @import "foundation/components/forms"; // *requires components/buttons
+// @import "foundation/components/switch";
+
+// Buttons
+// @import "foundation/components/buttons";
+// @import "foundation/components/button-groups"; // *requires components/buttons
+// @import "foundation/components/split-buttons"; // *requires components/buttons
+// @import "foundation/components/dropdown-buttons"; // *requires components/buttons
+
+// Typography
+// @import "foundation/components/type";
+// @import "foundation/components/inline-lists";
+// @import "foundation/components/labels";
+// @import "foundation/components/keystrokes";
+
+// Callouts & Prompts
+// @import "foundation/components/reveal";
+// @import "foundation/components/alert-boxes";
+// @import "foundation/components/panels";
+// @import "foundation/components/tooltips";
+// @import "foundation/components/joyride";
+
+// Content
+// @import "foundation/components/dropdown";
+// @import "foundation/components/pricing-tables";
+// @import "foundation/components/progress-bars";
+// @import "foundation/components/tables";
+// @import "foundation/components/accordion";
+// @import "foundation/components/tabs";
+
+// Project Styles
 
 header {
   @include grid-row;
