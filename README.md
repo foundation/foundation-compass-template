@@ -17,7 +17,7 @@ The easiest way to get started with Foundation + Compass.
 Then when you're working on your project, just run the following command:
 
 ```bash
-compass watch
+bundle exec compass watch
 ```
 
 ## Upgrading
